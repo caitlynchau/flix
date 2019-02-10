@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		10E5A3A895DFF14E4C8B37A1 /* libPods-flix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22252581338D97B66EC7282D /* libPods-flix.a */; };
+		2F6702EC220E5F2A0016F277 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6702EB220E5F2A0016F277 /* MovieDetailsViewController.swift */; };
 		2F9659F2220790A700F51863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9659F1220790A700F51863 /* AppDelegate.swift */; };
 		2F9659F7220790A700F51863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9659F5220790A700F51863 /* Main.storyboard */; };
 		2F9659F9220790A900F51863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9659F8220790A900F51863 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		22252581338D97B66EC7282D /* libPods-flix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flix.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6702EB220E5F2A0016F277 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		2F9659EE220790A700F51863 /* flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F9659F1220790A700F51863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F9659F6220790A700F51863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			children = (
 				2F9659F1220790A700F51863 /* AppDelegate.swift */,
 				2F9659F5220790A700F51863 /* Main.storyboard */,
+				2F6702EB220E5F2A0016F277 /* MovieDetailsViewController.swift */,
 				2F9659F8220790A900F51863 /* Assets.xcassets */,
 				2F9659FA220790A900F51863 /* LaunchScreen.storyboard */,
 				2F9659FD220790A900F51863 /* Info.plist */,
@@ -371,6 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F6702EC220E5F2A0016F277 /* MovieDetailsViewController.swift in Sources */,
 				2F9659F2220790A700F51863 /* AppDelegate.swift in Sources */,
 				2F965A202207927600F51863 /* MoviesViewController.swift in Sources */,
 				2F965A2222079F3500F51863 /* MovieCell.swift in Sources */,
