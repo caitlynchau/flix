@@ -1,19 +1,18 @@
 //
-//  MovieDetailsViewController.swift
+//  SuperheroMovieViewController.swift
 //  flix
 //
-//  Created by Caitlyn Chau on 2/8/19.
+//  Created by Caitlyn Chau on 2/10/19.
 //  Copyright © 2019 Caitlyn Chau. All rights reserved.
 //
 
 import UIKit
-import AlamofireImage
 
-class MovieDetailsViewController: UIViewController {
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var synopsisLabel: UILabel!
+class SuperheroMovieViewController: UIViewController {
     @IBOutlet weak var backdropView: UIImageView!
     @IBOutlet weak var posterView: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var synopsisLabel: UILabel!
     
     var movie : [String: Any]!
     
@@ -23,6 +22,7 @@ class MovieDetailsViewController: UIViewController {
         // Do any additional setup after loading the view.
         titleLabel.text = movie["title"] as? String
         titleLabel.sizeToFit()
+        
         synopsisLabel.text = movie["overview"] as? String
         synopsisLabel.sizeToFit()
         
