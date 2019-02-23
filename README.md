@@ -1,4 +1,4 @@
-#🎬 Flix 🎬
+# Flix 🎬
 Flix is a movies app that allows users to browse box office movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 ## Flix Part 3
